@@ -5,4 +5,4 @@ Utilizando conhecimentos básicos de html, css e js recriei a interface com o te
 criei um player pra ouvir uma música 
 projeto básico, porém, muito útil para relembrar alguns conceitos.
 
-<img src="./assets/screenshot.jpg"/>
+<img src="./assets/screenshot.png"/>
