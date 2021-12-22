@@ -12,7 +12,7 @@ body{
     color:white;
    font-family: 'Times New Roman', Times, serif;
 }
-header .container{
+header .container-logo{
     align-items: center;
     display:flex;
     flex-direction: row;
@@ -24,9 +24,10 @@ header .logo{
     color:var(--vermelho);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 9vw;
+
 }
-header a{
+header nav a{
     text-decoration: none;
     color:white;
     margin:10px;
@@ -39,10 +40,11 @@ header a:hover{
 
 /* main */
 
-.main-movie{
+.main-pic{
     font-size: 18px;
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)100%),url(../assets/img/capa-house.jpg);
-    height:400px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)100%),url(../assets/knot-imgs/wallpaper3.jpg);
+    height:100% auto;
+    width:100%;
     background-size: cover;
     display:flex;
     flex-direction: column;
@@ -57,6 +59,7 @@ header a:hover{
 .title{
     
     margin-top: 30%;
+    font-size: 6vw;
     margin-bottom: 15px;;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -83,4 +86,35 @@ header a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+.carrousel-movies{
+    margin-top: 10px;
+}
+
+@media screen and (max-width:600px){
+    header .container-logo{
+    display: flex;
+    flex-direction: column;
+    }
+    header .logo{
+        font-size: 15vw;
+    }
+    header nav a{
+        font-size: 16px;
+    }
+
+    .button{
+        margin-top: 5px;
+        width: 80%;
+    }
+    .carrousel-movies{
+        margin-top: 10px;
+    }
+   
+}
+@media screen and(max-width:400px) {
+     a{
+        font-size: 8px;
+    }
+    
 }

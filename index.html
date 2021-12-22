@@ -1,59 +1,64 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
-    <title>NotFlix</title>
-</head>
-<body>
-    <header> 
-        <div class="container">
-        <h1 class="logo">NOTFLIX</h1>
-       
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css" />
+    <title>KnotFlix</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-logo">
+        <h1 class="logo">KNOTFLIX</h1>
         <nav>
-            <a href="#">INÍCIO</a>
-            <a href="#">SÉRIES</a>
-            <a href="#">FILMES</a>
-            <a href="#">DOCUMENTÁRIOS</a>
+          <a href="#">INÍCIO</a>
+          <a href="#">ALBUMS</a>
+          <a href="#">SHOWS</a>
         </nav>
-    </div>
+      </div>
     </header>
     <main>
-        <div class="main-movie">
-            <div class="container">
-                <h2 class = "title">HOUSE OF CARDS</h2>
-                <p class="description">Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington.</p>
-                <div class="buttons">
-                    <button role="button" class="button"><i class="bi bi-play-fill"></i> Assistir agora</button>
-                    <button role="button" class="button"><i class="bi bi-info-circle-fill"></i> Mais Informações</button>
-                </div>
-            </div>
-           
+      <div class="main-pic">
+        <div class="container">
+          <h2 class="title">Slipknot</h2>
+          <p class="description">
+            Slipknot is an American heavy metal band formed in Des Moines, Iowa
+          </p>
+          <div class="buttons">
+            <button id="play" role="button" class="button">
+              <i id="icon"class="bi bi-play-fill"></i>Ouvir Agora
+            </button>
+            <button role="button" class="button">
+              <i class="bi bi-info-circle-fill"></i> Mais Informações
+            </button>
+          </div>
         </div>
+      </div>
     </main>
     <div class="carrousel-movies">
-        <div class="owl-carousel owl-theme">
-            <div class="item"><img src="./assets/img/mini1.jpg" alt=""></div>
-            <div class="item"><img src="./assets/img/mini2.jpg" alt=""></div>
-            <div class="item"><img src="./assets/img/mini3.jpg" alt=""></div>
-            <div class="item"><img src="./assets/img/mini4.jpg" alt=""></div>
-            <div class="item"><img src="./assets/img/mini5.jpg" alt=""></div>
-            <div class="item"><img src="./assets/img/mini6.jpg" alt=""></div>
-            <div class="item"><img src="./assets/img/mini7.jpg" alt=""></div>
-            <div class="item"><img src="./assets/img/mini8.jpg" alt=""></div>
-            <div class="item"><img src="./assets/img/mini9.jpg" alt=""></div>
-        
-        </div>
+      <div class="owl-carousel owl-theme">
+        <div class="item"><img src="./assets/knot-imgs/craig.jpg" alt="" /></div>
+        <div class="item"><img src="./assets/knot-imgs/mike.jpg" alt="" /></div>
+        <div class="item"><img src="./assets/knot-imgs/tortilla.jpg" alt="" /></div>
+        <div class="item"><img src="./assets/knot-imgs/sid.jpg" alt="" /></div>
+        <div class="item"><img src="./assets/knot-imgs/jay.jpg" alt="" /></div>
+        <div class="item"><img src="./assets/knot-imgs/wallpaper.jpg" alt="" /></div>
+        <div class="item"><img src="./assets/knot-imgs/wallpaper5.jpg" alt="" /></div>
+        <div class="item"><img src="./assets/knot-imgs/wallpaper2.jpg" alt="" /></div>
+        <div class="item"><img src="./assets//knot-imgs/wallpaper4.jpg" alt="" /></div>
+      </div>
     </div>
-
-    
+    <audio id="audio" src="./assets/mp3/10 Wherein Lies Continue.mp3"></audio>
     <script src="./js/owl/jquery.min.js"></script>
     <script src="./js/owl/owl.carousel.min.js"></script>
     <script src="./js/script.js"></script>
-</body>
+  </body>
 </html>
