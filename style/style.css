@@ -53,14 +53,14 @@ header a:hover{
     padding-left: 20px;
     
 }
-.main-movie .buttons{
+.buttons{
     margin-top: 40px;
 }
 .title{
     
     margin-top: 30%;
     font-size: 6vw;
-    margin-bottom: 15px;;
+    margin-bottom: 5px;;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .button{
